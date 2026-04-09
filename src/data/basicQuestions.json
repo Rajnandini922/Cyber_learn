@@ -1,0 +1,260 @@
+[
+  {
+    "question": "Which port is used by HTTP?",
+    "options": ["22", "23", "80", "443"],
+    "correct": "80",
+    "explanation": "HTTP runs on port 80 for unencrypted web traffic."
+  },
+  {
+    "question": "Which port is used by HTTPS?",
+    "options": ["21", "80", "22", "443"],
+    "correct": "443",
+    "explanation": "HTTPS uses port 443 for secure web communication."
+  },
+  {
+    "question": "What is Telnet’s default port?",
+    "options": ["23", "22", "21", "25"],
+    "correct": "23",
+    "explanation": "Telnet uses port 23 and is unencrypted."
+  },
+  {
+    "question": "What does a firewall do?",
+    "options": ["Scan viruses", "Block unauthorized access", "Increase network speed", "Store passwords"],
+    "correct": "Block unauthorized access",
+    "explanation": "Firewalls filter and block traffic based on security rules."
+  },
+  {
+    "question": "What is inbound traffic?",
+    "options": ["Coming into your network", "Leaving your network", "Internal transfer", "Malicious only"],
+    "correct": "Coming into your network",
+    "explanation": "Inbound rules control traffic entering your system."
+  },
+  {
+    "question": "What is outbound traffic?",
+    "options": ["Coming into your network", "Leaving your network", "Internal transfer", "Malicious only"],
+    "correct": "Leaving your network",
+    "explanation": "Outbound rules control traffic leaving your system."
+  },
+  {
+    "question": "What is a DMZ in networking?",
+    "options": ["A secure area", "A public-facing zone", "An internal network", "A type of firewall"],
+    "correct": "A public-facing zone",
+    "explanation": "DMZs host public services while protecting the internal network."
+  },
+  {
+    "question": "What is a VPN?",
+    "options": ["Virtual Private Network", "Virtual Public Network", "Very Private Network", "Very Public Network"],
+    "correct": "Virtual Private Network",
+    "explanation": "VPNs encrypt traffic and provide secure remote access."
+  },
+  {
+    "question": "What is port forwarding?",
+    "options": ["Blocking ports", "Redirecting traffic to a specific device", "Opening all ports", "Closing all ports"],
+    "correct": "Redirecting traffic to a specific device",
+    "explanation": "Port forwarding directs incoming traffic to a designated device."
+  },
+  {
+    "question": "What is NAT?",
+    "options": ["Network Address Translation", "Network Access Technology", "Network Application Transfer", "Network Address Transfer"],
+    "correct": "Network Address Translation",
+    "explanation": "NAT translates private IP addresses to a public IP address."
+  },
+  {
+    "question": "Which port is commonly used for DNS?",
+    "options": ["80", "443", "53", "110"],
+    "correct": "53",
+    "explanation": "DNS uses port 53 for name resolution queries."
+  },
+  {
+    "question": "Which protocol is used to transfer files securely?",
+    "options": ["FTP", "SFTP", "HTTP", "Telnet"],
+    "correct": "SFTP",
+    "explanation": "SFTP (Secure File Transfer Protocol) ensures secure file transfers over SSH."
+  },
+  {
+    "question": "What is the purpose of port 110?",
+    "options": ["POP3", "SMTP", "SSH", "HTTPS"],
+    "correct": "POP3",
+    "explanation": "Port 110 is used by POP3 to retrieve emails from a server."
+  },
+  {
+    "question": "Which protocol is considered insecure?",
+    "options": ["HTTPS", "SSH", "Telnet", "SFTP"],
+    "correct": "Telnet",
+    "explanation": "Telnet sends data in plaintext, making it insecure."
+  },
+  {
+    "question": "Which tool can help monitor open ports?",
+    "options": ["Firewall", "Antivirus", "Nmap", "Wireshark"],
+    "correct": "Nmap",
+    "explanation": "Nmap is a port scanning tool used to discover open ports on a network."
+  },
+  {
+    "question": "Which port does SSH use by default?",
+    "options": ["21", "22", "23", "25"],
+    "correct": "22",
+    "explanation": "SSH uses port 22 for secure communication."
+  },
+  {
+    "question": "What is a firewall rule?",
+    "options": ["A setting to control volume", "A user password", "A condition for allowing/blocking traffic", "A malware signature"],
+    "correct": "A condition for allowing/blocking traffic",
+    "explanation": "Rules determine whether to allow or deny specific network packets."
+  },
+  {
+    "question": "Which layer of the OSI model do firewalls operate on?",
+    "options": ["Application", "Presentation", "Network", "Transport"],
+    "correct": "Network",
+    "explanation": "Most firewalls operate at the network and transport layers."
+  },
+  {
+    "question": "Which of the following helps prevent unauthorized access?",
+    "options": ["Firewall", "Keyboard", "Modem", "Monitor"],
+    "correct": "Firewall",
+    "explanation": "A firewall is specifically designed to block unauthorized access."
+  },
+  {
+    "question": "What does the acronym IP stand for?",
+    "options": ["Internet Password", "Internet Protocol", "Internal Port", "Input Path"],
+    "correct": "Internet Protocol",
+    "explanation": "IP stands for Internet Protocol, used to route packets across networks."
+  },
+  {
+    "question": "What is the purpose of a firewall?",
+    "options": ["To speed up internet", "To block unauthorized access", "To store data", "To manage network traffic"],
+    "correct": "To block unauthorized access",
+    "explanation": "Firewalls are designed to prevent unauthorized access to or from a private network."
+  },
+  {
+    "question": "What is a common use of port 80?",
+    "options": ["Email", "Web traffic", "File transfer", "Remote login"],
+    "correct": "Web traffic",
+    "explanation": "Port 80 is used for HTTP web traffic."
+  },
+  {
+    "question": "Which address type is used to identify a specific device on a network?",
+    "options": ["IP address", "MAC address", "URL", "Gateway"],
+    "correct": "IP address",
+    "explanation": "An IP address uniquely identifies a device on a network."
+  },
+  {
+    "question": "Which of these is NOT a valid firewall action?",
+    "options": ["Allow", "Deny", "Drop", "Hide"],
+    "correct": "Hide",
+    "explanation": "Firewalls do not 'hide' traffic; they typically allow, deny, or drop packets."
+  },
+  {
+    "question": "What is the purpose of a default gateway?",
+    "options": ["Accessing internal files", "Securing a port", "Routing traffic to other networks", "Encrypting data"],
+    "correct": "Routing traffic to other networks",
+    "explanation": "A default gateway routes packets from the local network to other networks."
+  },
+  {
+    "question": "Which device usually contains a built-in firewall?",
+    "options": ["Switch", "Router", "Monitor", "Keyboard"],
+    "correct": "Router",
+    "explanation": "Most modern routers include a basic firewall for home networks."
+  },
+  {
+    "question": "What is the purpose of NAT in firewalls?",
+    "options": ["Encrypt data", "Translate private IPs to public IPs", "Open ports", "Block IPs"],
+    "correct": "Translate private IPs to public IPs",
+    "explanation": "NAT (Network Address Translation) allows multiple devices to share a single public IP."
+  },
+  {
+    "question": "What kind of firewall uses rules based on source and destination IP and port?",
+    "options": ["Application firewall", "Stateful firewall", "Packet-filtering firewall", "Antivirus"],
+    "correct": "Packet-filtering firewall",
+    "explanation": "Packet-filtering firewalls analyze headers to decide whether to allow or block traffic."
+  },
+  {
+    "question": "What is the main difference between stateful and stateless firewalls?",
+    "options": ["Ports used", "Price", "Packet tracking", "Speed"],
+    "correct": "Packet tracking",
+    "explanation": "Stateful firewalls track the state of active connections, stateless ones do not."
+  },
+  {
+    "question": "Which port is used by SMTP to send emails?",
+    "options": ["110", "25", "53", "443"],
+    "correct": "25",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) uses port 25 to send emails."
+  },
+  {
+    "question": "Which layer does packet filtering operate on?",
+    "options": ["Physical", "Network", "Session", "Presentation"],
+    "correct": "Network",
+    "explanation": "Packet filtering happens at the Network layer (Layer 3)."
+  },
+  {
+    "question": "What is the primary benefit of using a firewall?",
+    "options": ["Faster internet", "Security", "Data backup", "Power saving"],
+    "correct": "Security",
+    "explanation": "Firewalls enhance security by monitoring and controlling network traffic."
+  },
+  {
+    "question": "What does port 53 typically handle?",
+    "options": ["Web traffic", "DNS", "Email", "FTP"],
+    "correct": "DNS",
+    "explanation": "Port 53 is used by the Domain Name System (DNS) to resolve domain names."
+  },
+  {
+    "question": "Which port is used for SSH?",
+    "options": ["21", "22", "23", "80"],
+    "correct": "22",
+    "explanation": "SSH (Secure Shell) uses port 22 for secure remote login."
+  },
+  {
+    "question": "What is the role of a firewall rule?",
+    "options": ["Save data", "Encrypt passwords", "Control traffic flow", "Boost performance"],
+    "correct": "Control traffic flow",
+    "explanation": "Firewall rules allow or deny network traffic based on set conditions."
+  },
+  {
+    "question": "Which protocol uses port 110?",
+    "options": ["SMTP", "POP3", "FTP", "HTTPS"],
+    "correct": "POP3",
+    "explanation": "POP3 (Post Office Protocol 3) uses port 110 to retrieve emails from a server."
+  },
+  {
+    "question": "Which of the following is a benefit of firewalls?",
+    "options": ["Reduce bandwidth", "Prevent unauthorized access", "Store files", "Create IPs"],
+    "correct": "Prevent unauthorized access",
+    "explanation": "Firewalls help block unauthorized connections to your system or network."
+  },
+  {
+    "question": "What is the opposite of inbound traffic?",
+    "options": ["External", "Outbound", "Malicious", "Blocked"],
+    "correct": "Outbound",
+    "explanation": "Outbound traffic refers to data leaving your device/network."
+  },
+  {
+    "question": "Which one is NOT a valid IP address?",
+    "options": ["192.168.1.1", "10.0.0.1", "255.255.255.255", "999.999.999.999"],
+    "correct": "999.999.999.999",
+    "explanation": "Each segment in an IP address must be between 0 and 255."
+  },
+  {
+    "question": "Which of these is considered a private IP range?",
+    "options": ["192.168.0.0/16", "8.8.8.8", "172.10.0.1", "1.1.1.1"],
+    "correct": "192.168.0.0/16",
+    "explanation": "192.168.x.x is a private IP address range commonly used in LANs."
+  },
+  {
+    "question": "Which tool shows the path packets take across networks?",
+    "options": ["Ping", "Traceroute", "Firewall", "Telnet"],
+    "correct": "Traceroute",
+    "explanation": "Traceroute displays the route and transit delays of packets across a network."
+  },
+  {
+    "question": "Which protocol works with IP to transmit data?",
+    "options": ["HTTP", "DNS", "TCP", "FTP"],
+    "correct": "TCP",
+    "explanation": "TCP (Transmission Control Protocol) works with IP to ensure reliable data transfer."
+  },
+  {
+    "question": "What is a firewall?",
+    "options": ["A router", "A security device", "A switch", "A cable"],
+    "correct": "A security device",
+    "explanation": "A firewall monitors and controls incoming and outgoing network traffic."
+  }
+]

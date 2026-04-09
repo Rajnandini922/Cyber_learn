@@ -1,0 +1,304 @@
+{
+  "hard": [
+    {
+      "id": 1,
+      "question": "Which advanced firewall technique allows inspection of traffic across multiple sessions to detect complex attacks?",
+      "options": ["Deep Packet Inspection (DPI)", "Stateless filtering", "Port forwarding", "Simple ACLs"],
+      "answer": "Deep Packet Inspection (DPI)"
+    },
+    {
+      "id": 2,
+      "question": "Why is asymmetric routing a challenge for stateful firewalls?",
+      "options": ["Packets bypass firewall rules", "The firewall loses track of connection states", "It blocks encrypted traffic", "It increases bandwidth"],
+      "answer": "The firewall loses track of connection states"
+    },
+    {
+      "id": 3,
+      "question": "In firewall rule optimization, what does rule aggregation achieve?",
+      "options": ["Combines multiple rules into one for efficiency", "Deletes unused firewall rules", "Prioritizes allow rules", "Splits rules by port number"],
+      "answer": "Combines multiple rules into one for efficiency"
+    },
+    {
+      "id": 4,
+      "question": "Which type of firewall can perform user identity-based filtering in enterprise environments?",
+      "options": ["Next-Generation Firewall", "Packet-filtering firewall", "Circuit-level firewall", "Proxy firewall"],
+      "answer": "Next-Generation Firewall"
+    },
+    {
+      "id": 5,
+      "question": "Why is it risky to use 'any-any allow' firewall rules?",
+      "options": ["It increases firewall processing overhead", "It creates unrestricted access that attackers can exploit", "It blocks VPN connections", "It causes DNS failures"],
+      "answer": "It creates unrestricted access that attackers can exploit"
+    },
+    {
+      "id": 6,
+      "question": "What is a key difference between IDS and an IPS-enabled firewall?",
+      "options": ["IDS detects threats, IPS blocks them in real-time", "IDS blocks traffic, IPS only logs it", "IDS encrypts traffic, IPS decrypts it", "IDS replaces firewalls, IPS replaces routers"],
+      "answer": "IDS detects threats, IPS blocks them in real-time"
+    },
+    {
+      "id": 7,
+      "question": "Why must firewalls be configured to handle fragmented packets carefully?",
+      "options": ["Attackers can evade detection using fragmented packets", "Fragmentation increases bandwidth", "Firewalls cannot read small packets", "Fragmented packets are always malicious"],
+      "answer": "Attackers can evade detection using fragmented packets"
+    },
+    {
+      "id": 8,
+      "question": "Which firewall feature is essential for preventing data leakage from insider threats?",
+      "options": ["Data Loss Prevention (DLP)", "Port forwarding", "Packet filtering", "VPN passthrough"],
+      "answer": "Data Loss Prevention (DLP)"
+    },
+    {
+      "id": 9,
+      "question": "What is the primary role of a Web Application Firewall (WAF)?",
+      "options": ["Protects against application-layer attacks such as SQL injection and XSS", "Filters packets at the network layer", "Encrypts VPN tunnels", "Blocks ICMP traffic"],
+      "answer": "Protects against application-layer attacks such as SQL injection and XSS"
+    },
+    {
+      "id": 10,
+      "question": "Why do firewalls sometimes integrate with threat intelligence feeds?",
+      "options": ["To automatically block known malicious IPs and domains", "To speed up routing decisions", "To improve bandwidth allocation", "To encrypt outgoing traffic"],
+      "answer": "To automatically block known malicious IPs and domains"
+    },
+    {
+      "id": 11,
+      "question": "In a multi-tier firewall architecture, what is the purpose of the internal firewall behind the DMZ?",
+      "options": ["To encrypt external traffic", "To protect the internal network from compromised DMZ hosts", "To accelerate VPN connections", "To block outbound traffic"],
+      "answer": "To protect the internal network from compromised DMZ hosts"
+    },
+    {
+      "id": 12,
+      "question": "What problem arises if firewall rules are not regularly reviewed and updated?",
+      "options": ["Increased latency", "Rule sprawl leading to security gaps", "Loss of bandwidth", "Automatic fail-closed behavior"],
+      "answer": "Rule sprawl leading to security gaps"
+    },
+    {
+      "id": 13,
+      "question": "Which firewall deployment mode requires the device to act as a transparent bridge?",
+      "options": ["Inline firewall mode", "Transparent mode", "NAT mode", "Application proxy mode"],
+      "answer": "Transparent mode"
+    },
+    {
+      "id": 14,
+      "question": "Why are stateful firewalls less effective against modern polymorphic malware?",
+      "options": ["They cannot handle encrypted traffic", "They do not analyze application payloads", "They block too much traffic", "They do not support NAT"],
+      "answer": "They do not analyze application payloads"
+    },
+    {
+      "id": 15,
+      "question": "What is the main risk of relying solely on a perimeter firewall in enterprise security?",
+      "options": ["Inability to route traffic", "Lack of internal segmentation leading to lateral movement", "Excessive CPU usage", "Overblocking DNS queries"],
+      "answer": "Lack of internal segmentation leading to lateral movement"
+    },
+    {
+      "id": 16,
+      "question": "Which advanced firewall method detects threats using behavior analysis instead of static rules?",
+      "options": ["Signature-based filtering", "Heuristic/Anomaly detection", "Stateless filtering", "Rule aggregation"],
+      "answer": "Heuristic/Anomaly detection"
+    },
+    {
+      "id": 17,
+      "question": "Why is SSL/TLS inspection a double-edged sword for firewalls?",
+      "options": ["It improves performance but reduces logging", "It allows encrypted inspection but may compromise user privacy", "It blocks all HTTPS traffic", "It disables IDS features"],
+      "answer": "It allows encrypted inspection but may compromise user privacy"
+    },
+    {
+      "id": 18,
+      "question": "What type of firewall is best for micro-segmentation in a data center?",
+      "options": ["Packet-filtering firewall", "Host-based firewall", "Next-Generation Firewall", "Proxy firewall"],
+      "answer": "Host-based firewall"
+    },
+    {
+      "id": 19,
+      "question": "Which attack specifically tries to exhaust firewall state tables?",
+      "options": ["Ping of Death", "SYN Flood", "Smurf attack", "ARP spoofing"],
+      "answer": "SYN Flood"
+    },
+    {
+      "id": 20,
+      "question": "Why is firewall rule ordering critical in high-performance networks?",
+      "options": ["Firewalls randomly choose rules", "Rules are processed sequentially and inefficient order slows traffic", "Firewalls only read the last rule", "Rules are ignored if unordered"],
+      "answer": "Rules are processed sequentially and inefficient order slows traffic"
+    },
+    {
+      "id": 21,
+      "question": "Why are dual-firewall (back-to-back) architectures sometimes deployed?",
+      "options": ["For higher bandwidth", "To separate external, DMZ, and internal traffic with layered defense", "To replace IDS/IPS", "To block VPNs"],
+      "answer": "To separate external, DMZ, and internal traffic with layered defense"
+    },
+    {
+      "id": 22,
+      "question": "What does 'firewall policy creep' refer to?",
+      "options": ["Outdated firmware", "Gradual accumulation of unnecessary or redundant rules", "Firewall logs filling up", "Overuse of NAT"],
+      "answer": "Gradual accumulation of unnecessary or redundant rules"
+    },
+    {
+      "id": 23,
+      "question": "Why can application-layer firewalls impact network performance?",
+      "options": ["They block NAT translation", "They perform deep inspection of traffic payloads", "They do not allow DNS queries", "They disable TLS encryption"],
+      "answer": "They perform deep inspection of traffic payloads"
+    },
+    {
+      "id": 24,
+      "question": "Which technique allows firewalls to enforce policies based on applications instead of ports?",
+      "options": ["Protocol tunneling", "App-ID (Application Identification)", "NAT translation", "Rule shadowing"],
+      "answer": "App-ID (Application Identification)"
+    },
+    {
+      "id": 25,
+      "question": "Why must firewall administrators be cautious with ICMP blocking?",
+      "options": ["ICMP is only malicious", "Some ICMP types are required for network diagnostics and path MTU discovery", "ICMP blocks HTTPS", "ICMP is required for VPN encryption"],
+      "answer": "Some ICMP types are required for network diagnostics and path MTU discovery"
+    },
+    {
+      "id": 26,
+      "question": "What is the primary advantage of firewall rule grouping?",
+      "options": ["It reduces CPU usage", "It simplifies policy management and reduces redundancy", "It increases bandwidth", "It enables DNS caching"],
+      "answer": "It simplifies policy management and reduces redundancy"
+    },
+    {
+      "id": 27,
+      "question": "Which type of firewall attack attempts to exhaust firewall resources by sending numerous half-open connections?",
+      "options": ["DNS poisoning", "SYN Flood", "Man-in-the-middle", "ARP cache poisoning"],
+      "answer": "SYN Flood"
+    },
+    {
+      "id": 28,
+      "question": "Why are Next-Generation Firewalls (NGFW) essential in modern enterprise networks?",
+      "options": ["They focus only on Layer 3 filtering", "They integrate DPI, IDS/IPS, and application awareness", "They only block TCP traffic", "They work without signatures"],
+      "answer": "They integrate DPI, IDS/IPS, and application awareness"
+    },
+    {
+      "id": 29,
+      "question": "In a cloud-native environment, which firewall approach is preferred?",
+      "options": ["Hardware firewalls", "Virtual firewalls and security groups", "Circuit-level firewalls", "Air-gap firewalls"],
+      "answer": "Virtual firewalls and security groups"
+    },
+    {
+      "id": 30,
+      "question": "Why should logging levels in firewalls be carefully configured?",
+      "options": ["Too little logging hides attacks, too much logging causes performance issues", "Logging always slows firewalls", "Logs are optional for firewalls", "Logs are encrypted automatically"],
+      "answer": "Too little logging hides attacks, too much logging causes performance issues"
+    },
+    {
+      "id": 31,
+      "question": "Why might a firewall drop packets with spoofed IP addresses?",
+      "options": ["They are always encrypted", "They indicate potential IP spoofing attacks", "They reduce network speed", "They are needed for NAT"],
+      "answer": "They indicate potential IP spoofing attacks"
+    },
+    {
+      "id": 32,
+      "question": "Which advanced firewall feature is used to detect traffic hidden in non-standard ports?",
+      "options": ["Port knocking", "Application awareness", "Transparent bridging", "NAT traversal"],
+      "answer": "Application awareness"
+    },
+    {
+      "id": 33,
+      "question": "Why are firewall 'any-any deny' rules sometimes paired with logging?",
+      "options": ["To block all DNS traffic", "To capture details of unexpected traffic attempts", "To reduce performance impact", "To disable VPNs"],
+      "answer": "To capture details of unexpected traffic attempts"
+    },
+    {
+      "id": 34,
+      "question": "Which firewall deployment type is best for inline prevention rather than just monitoring?",
+      "options": ["IDS mode", "IPS mode", "Proxy-only mode", "Log-only mode"],
+      "answer": "IPS mode"
+    },
+    {
+      "id": 35,
+      "question": "What is the risk of misconfigured NAT rules in firewalls?",
+      "options": ["They can expose internal systems to the internet unintentionally", "They reduce encryption strength", "They disable DNS lookups", "They block ICMP"],
+      "answer": "They can expose internal systems to the internet unintentionally"
+    },
+    {
+      "id": 36,
+      "question": "Which advanced technique allows attackers to bypass firewalls by splitting malicious payloads?",
+      "options": ["Session hijacking", "Packet fragmentation attacks", "ARP spoofing", "DNS tunneling"],
+      "answer": "Packet fragmentation attacks"
+    },
+    {
+      "id": 37,
+      "question": "Why is it important to place firewalls near both the perimeter and critical internal segments?",
+      "options": ["To balance internet bandwidth", "To provide defense-in-depth against lateral movement", "To reduce CPU usage", "To avoid VPNs"],
+      "answer": "To provide defense-in-depth against lateral movement"
+    },
+    {
+      "id": 38,
+      "question": "Which logging strategy helps detect stealthy, low-volume attacks through firewalls?",
+      "options": ["Only log denied traffic", "Enable full session logging with anomaly detection", "Disable logs for performance", "Log only DNS queries"],
+      "answer": "Enable full session logging with anomaly detection"
+    },
+    {
+      "id": 39,
+      "question": "Why is firewall high availability (HA) clustering important?",
+      "options": ["To double CPU usage", "To prevent downtime during firewall failures", "To block VPN connections", "To bypass NAT rules"],
+      "answer": "To prevent downtime during firewall failures"
+    },
+    {
+      "id": 40,
+      "question": "Which type of firewall rule can mitigate DNS tunneling attacks?",
+      "options": ["Restricting outbound DNS traffic to authorized servers", "Allowing all UDP traffic", "Blocking HTTPS entirely", "Enabling port forwarding"],
+      "answer": "Restricting outbound DNS traffic to authorized servers"
+    },
+    {
+      "id": 41,
+      "question": "Why might attackers use HTTPS to bypass firewalls?",
+      "options": ["Because HTTPS is always blocked", "Because encrypted traffic hides malicious payloads", "Because HTTPS disables DNS", "Because HTTPS bypasses NAT"],
+      "answer": "Because encrypted traffic hides malicious payloads"
+    },
+    {
+      "id": 42,
+      "question": "Which firewall feature is used to block connections based on known malicious IP reputation lists?",
+      "options": ["Geo-blocking", "Threat intelligence feeds", "NAT filtering", "Proxy caching"],
+      "answer": "Threat intelligence feeds"
+    },
+    {
+      "id": 43,
+      "question": "What is the purpose of a firewall DMZ configuration?",
+      "options": ["To reduce encryption overhead", "To isolate public-facing services from the internal network", "To bypass intrusion prevention systems", "To enable unrestricted internet access"],
+      "answer": "To isolate public-facing services from the internal network"
+    },
+    {
+      "id": 44,
+      "question": "Which type of attack attempts to overload firewalls with too many sessions?",
+      "options": ["Phishing", "DDoS floods", "DNS spoofing", "SQL injection"],
+      "answer": "DDoS floods"
+    },
+    {
+      "id": 45,
+      "question": "Why should firewalls restrict outbound traffic, not just inbound?",
+      "options": ["To enforce SSL inspection", "To prevent malware from communicating with command-and-control servers", "To reduce server CPU load", "To block IPv6 entirely"],
+      "answer": "To prevent malware from communicating with command-and-control servers"
+    },
+    {
+      "id": 46,
+      "question": "Which firewall feature helps prevent data exfiltration over unusual ports?",
+      "options": ["Deep Packet Inspection (DPI)", "Static NAT", "MAC filtering", "ARP blocking"],
+      "answer": "Deep Packet Inspection (DPI)"
+    },
+    {
+      "id": 47,
+      "question": "Why might firewalls block traffic with invalid TCP flag combinations?",
+      "options": ["They always indicate encrypted sessions", "They may signal port scanning or evasion attempts", "They improve bandwidth", "They are required by SSL"],
+      "answer": "They may signal port scanning or evasion attempts"
+    },
+    {
+      "id": 48,
+      "question": "Which best practice minimizes firewall configuration errors?",
+      "options": ["Use broad allow rules", "Apply least privilege and document rule changes", "Disable logging", "Rely only on NAT for protection"],
+      "answer": "Apply least privilege and document rule changes"
+    },
+    {
+      "id": 49,
+      "question": "What is the risk of relying solely on firewalls for security?",
+      "options": ["They block all DNS queries", "They cannot detect insider threats or application-layer attacks", "They always slow down traffic", "They encrypt all sessions automatically"],
+      "answer": "They cannot detect insider threats or application-layer attacks"
+    },
+    {
+      "id": 50,
+      "question": "Which advanced firewall mechanism can detect and block tunneling over HTTPS or DNS?",
+      "options": ["SSL/TLS inspection with behavioral analysis", "MAC filtering", "Static routing", "ARP poisoning prevention"],
+      "answer": "SSL/TLS inspection with behavioral analysis"
+    }
+  ]
+}

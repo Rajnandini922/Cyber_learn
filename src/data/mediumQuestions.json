@@ -1,0 +1,304 @@
+{
+  "medium": [
+    {
+      "id": 1,
+      "question": "Which type of firewall operates mainly at Layer 3 of the OSI model?",
+      "options": ["Packet-filtering firewall", "Application firewall", "Circuit-level gateway", "Proxy firewall"],
+      "answer": "Packet-filtering firewall"
+    },
+    {
+      "id": 2,
+      "question": "Which default firewall rule is most secure?",
+      "options": ["Allow all, deny specific", "Deny all, allow specific", "Allow only internal traffic", "Allow all inbound traffic"],
+      "answer": "Deny all, allow specific"
+    },
+    {
+      "id": 3,
+      "question": "Which protocol is often blocked by firewalls due to its security risks?",
+      "options": ["SSH", "Telnet", "HTTPS", "SMTP"],
+      "answer": "Telnet"
+    },
+    {
+      "id": 4,
+      "question": "What is the main function of a DMZ in firewall configuration?",
+      "options": ["Provide faster internet", "Isolate public-facing services from the internal network", "Encrypt traffic", "Store firewall rules"],
+      "answer": "Isolate public-facing services from the internal network"
+    },
+    {
+      "id": 5,
+      "question": "Which type of firewall monitors the full connection state of traffic?",
+      "options": ["Packet-filtering firewall", "Circuit-level gateway", "Stateful firewall", "Proxy firewall"],
+      "answer": "Stateful firewall"
+    },
+    {
+      "id": 6,
+      "question": "Which port should generally be allowed for secure HTTPS web browsing?",
+      "options": ["21", "22", "80", "443"],
+      "answer": "443"
+    },
+    {
+      "id": 7,
+      "question": "What happens if two firewall rules conflict?",
+      "options": ["First rule wins", "Last rule wins", "Both rules are ignored", "Firewall shuts down"],
+      "answer": "First rule wins"
+    },
+    {
+      "id": 8,
+      "question": "Which firewall type acts as an intermediary between user and internet resources?",
+      "options": ["Packet-filtering firewall", "Proxy firewall", "Stateful firewall", "Circuit-level gateway"],
+      "answer": "Proxy firewall"
+    },
+    {
+      "id": 9,
+      "question": "Which option best describes a firewall’s role in network security?",
+      "options": ["Encrypts data", "Controls traffic based on rules", "Detects phishing emails", "Provides authentication services"],
+      "answer": "Controls traffic based on rules"
+    },
+    {
+      "id": 10,
+      "question": "Why is rule order important in firewall configuration?",
+      "options": ["Firewall only checks the last rule", "Firewall applies rules sequentially from top to bottom", "Firewall ignores duplicate rules", "Firewall randomizes rule order"],
+      "answer": "Firewall applies rules sequentially from top to bottom"
+    },
+    {
+      "id": 11,
+      "question": "Which type of attack can a firewall help prevent by blocking suspicious inbound traffic?",
+      "options": ["Phishing", "Brute-force login", "DDoS", "SQL Injection"],
+      "answer": "DDoS"
+    },
+    {
+      "id": 12,
+      "question": "Which protocol should generally be blocked on firewalls to prevent file transfer abuse?",
+      "options": ["FTP", "HTTPS", "SMTP", "DNS"],
+      "answer": "FTP"
+    },
+    {
+      "id": 13,
+      "question": "A firewall rule that says 'ALLOW TCP 80' means which of the following?",
+      "options": ["Allow HTTP traffic", "Allow HTTPS traffic", "Allow FTP traffic", "Allow SSH traffic"],
+      "answer": "Allow HTTP traffic"
+    },
+    {
+      "id": 14,
+      "question": "Which type of firewall combines features of packet filtering and application filtering?",
+      "options": ["Circuit-level firewall", "Next-Generation Firewall", "Stateful firewall", "Proxy firewall"],
+      "answer": "Next-Generation Firewall"
+    },
+    {
+      "id": 15,
+      "question": "In firewall terminology, what does 'egress filtering' mean?",
+      "options": ["Filtering incoming traffic", "Filtering outgoing traffic", "Filtering VPN connections", "Filtering DNS lookups"],
+      "answer": "Filtering outgoing traffic"
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of 'port forwarding' in firewall configuration?",
+      "options": ["To block all unused ports", "To redirect traffic to a specific internal device", "To encrypt external connections", "To bypass authentication rules"],
+      "answer": "To redirect traffic to a specific internal device"
+    },
+    {
+      "id": 17,
+      "question": "Why should firewalls block ICMP ping requests from the internet?",
+      "options": ["To prevent phishing emails", "To prevent network reconnaissance", "To block HTTPS", "To block DNS lookups"],
+      "answer": "To prevent network reconnaissance"
+    },
+    {
+      "id": 18,
+      "question": "Which firewall type checks traffic against signatures of known attacks?",
+      "options": ["Packet-filtering firewall", "Stateful firewall", "Application firewall", "Intrusion Prevention System"],
+      "answer": "Intrusion Prevention System"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a benefit of using firewall 'zones'?",
+      "options": ["Increases bandwidth", "Provides layered security by segmenting networks", "Automatically updates firewall rules", "Encrypts all traffic"],
+      "answer": "Provides layered security by segmenting networks"
+    },
+    {
+      "id": 20,
+      "question": "What is the role of a firewall in VPN connections?",
+      "options": ["Block VPN completely", "Allow or block VPN tunnels through specific ports and protocols", "Convert VPN to HTTPS", "Encrypt VPN traffic directly"],
+      "answer": "Allow or block VPN tunnels through specific ports and protocols"
+    },
+    {
+      "id": 21,
+      "question": "Which type of firewall policy blocks traffic unless it matches an explicit allow rule?",
+      "options": ["Implicit deny", "Explicit allow", "Permit all", "Fail open"],
+      "answer": "Implicit deny"
+    },
+    {
+      "id": 22,
+      "question": "Which protocol is typically allowed for secure remote management?",
+      "options": ["Telnet", "SSH", "FTP", "SNMPv1"],
+      "answer": "SSH"
+    },
+    {
+      "id": 23,
+      "question": "In a firewall, what does NAT (Network Address Translation) help achieve?",
+      "options": ["Hides internal IP addresses", "Encrypts DNS queries", "Speeds up HTTP requests", "Prevents phishing emails"],
+      "answer": "Hides internal IP addresses"
+    },
+    {
+      "id": 24,
+      "question": "Why should unused ports be blocked at the firewall?",
+      "options": ["To reduce network speed", "To minimize attack surface", "To prevent encryption", "To allow ICMP"],
+      "answer": "To minimize attack surface"
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is a limitation of packet-filtering firewalls?",
+      "options": ["They cannot inspect packet contents", "They cannot block IP addresses", "They cannot filter by port", "They cannot enforce rule order"],
+      "answer": "They cannot inspect packet contents"
+    },
+    {
+      "id": 26,
+      "question": "What does 'default deny' mean in a firewall configuration?",
+      "options": ["All traffic is denied unless explicitly allowed", "All traffic is allowed unless explicitly denied", "Only internal traffic is denied", "Firewall ignores external connections"],
+      "answer": "All traffic is denied unless explicitly allowed"
+    },
+    {
+      "id": 27,
+      "question": "Which type of firewall monitors traffic at Layer 7 (Application layer)?",
+      "options": ["Packet-filtering firewall", "Stateful firewall", "Application firewall", "Circuit-level firewall"],
+      "answer": "Application firewall"
+    },
+    {
+      "id": 28,
+      "question": "Why might firewalls block outbound SMTP traffic from internal devices?",
+      "options": ["To prevent data exfiltration via email spam", "To block DNS tunneling", "To stop SSH connections", "To disable VPNs"],
+      "answer": "To prevent data exfiltration via email spam"
+    },
+    {
+      "id": 29,
+      "question": "Which type of firewall is most effective for cloud environments?",
+      "options": ["Proxy firewall", "Packet filtering firewall", "Next-Generation Firewall", "Circuit-level firewall"],
+      "answer": "Next-Generation Firewall"
+    },
+    {
+      "id": 30,
+      "question": "What is the main disadvantage of an application firewall?",
+      "options": ["Higher latency due to deep inspection", "Cannot filter traffic by IP address", "Ignores protocol headers", "Does not support NAT"],
+      "answer": "Higher latency due to deep inspection"
+    },
+    {
+      "id": 31,
+      "question": "Which firewall configuration is commonly used to host public servers like web or mail?",
+      "options": ["VPN tunnel", "DMZ (Demilitarized Zone)", "NAT gateway", "Egress filtering"],
+      "answer": "DMZ (Demilitarized Zone)"
+    },
+    {
+      "id": 32,
+      "question": "Why do firewalls often block port 23?",
+      "options": ["It is used by insecure Telnet service", "It is used by HTTPS", "It is used by DNS", "It is used by SSH"],
+      "answer": "It is used by insecure Telnet service"
+    },
+    {
+      "id": 33,
+      "question": "What is the main role of firewall logging?",
+      "options": ["To encrypt data", "To detect suspicious traffic patterns", "To update antivirus signatures", "To compress network packets"],
+      "answer": "To detect suspicious traffic patterns"
+    },
+    {
+      "id": 34,
+      "question": "Which rule should be placed at the bottom of a firewall rule set?",
+      "options": ["Allow SSH", "Block Telnet", "Deny All", "Allow DNS"],
+      "answer": "Deny All"
+    },
+    {
+      "id": 35,
+      "question": "Which type of firewall is best suited for filtering based on user identity?",
+      "options": ["Stateful firewall", "Packet-filtering firewall", "Application firewall", "Next-Generation Firewall"],
+      "answer": "Next-Generation Firewall"
+    },
+    {
+      "id": 36,
+      "question": "Why are outbound firewall rules important?",
+      "options": ["They reduce download speeds", "They prevent internal devices from leaking data", "They encrypt all internal traffic", "They disable VPN connections"],
+      "answer": "They prevent internal devices from leaking data"
+    },
+    {
+      "id": 37,
+      "question": "What does 'rule shadowing' mean in firewall configuration?",
+      "options": ["A rule that never takes effect because a previous rule already matches the traffic", "A rule that blocks another rule", "A backup rule for redundancy", "A hidden admin-only rule"],
+      "answer": "A rule that never takes effect because a previous rule already matches the traffic"
+    },
+    {
+      "id": 38,
+      "question": "Which type of traffic should typically be restricted to reduce attack surfaces?",
+      "options": ["Unnecessary inbound and outbound ports", "HTTPS traffic", "DNS lookups", "Local LAN traffic"],
+      "answer": "Unnecessary inbound and outbound ports"
+    },
+    {
+      "id": 39,
+      "question": "Which layer of the OSI model do packet-filtering firewalls operate on?",
+      "options": ["Layer 2 (Data Link)", "Layer 3 (Network)", "Layer 4 (Transport)", "Layer 7 (Application)"],
+      "answer": "Layer 3 (Network)"
+    },
+    {
+      "id": 40,
+      "question": "What is the main disadvantage of relying only on packet-filtering firewalls?",
+      "options": ["They cannot block based on IP address", "They cannot analyze application data", "They cannot block port numbers", "They cannot route traffic"],
+      "answer": "They cannot analyze application data"
+    },
+    {
+      "id": 41,
+      "question": "Which firewall concept ensures that traffic must pass through a single entry point to be controlled?",
+      "options": ["Choke point", "Egress filtering", "NAT", "Rule shadowing"],
+      "answer": "Choke point"
+    },
+    {
+      "id": 42,
+      "question": "Why do firewalls often restrict inbound traffic on port 3389?",
+      "options": ["It is used by insecure RDP service", "It is used by HTTPS", "It is used by DNS", "It is used by FTP"],
+      "answer": "It is used by insecure RDP service"
+    },
+    {
+      "id": 43,
+      "question": "What is the function of a dual-homed firewall?",
+      "options": ["Connects two networks with different security levels", "Encrypts DNS queries", "Acts as an intrusion prevention system", "Filters packets based on signatures"],
+      "answer": "Connects two networks with different security levels"
+    },
+    {
+      "id": 44,
+      "question": "Which firewall feature can help detect and block brute-force login attempts?",
+      "options": ["Rate limiting", "Egress filtering", "Packet fragmentation", "Port forwarding"],
+      "answer": "Rate limiting"
+    },
+    {
+      "id": 45,
+      "question": "Why is it important to regularly update firewall firmware?",
+      "options": ["To prevent hardware failure", "To patch security vulnerabilities", "To reset firewall rules", "To increase bandwidth"],
+      "answer": "To patch security vulnerabilities"
+    },
+    {
+      "id": 46,
+      "question": "Which type of firewall can act as a caching server to improve performance?",
+      "options": ["Stateful firewall", "Packet-filtering firewall", "Proxy firewall", "Circuit-level firewall"],
+      "answer": "Proxy firewall"
+    },
+    {
+      "id": 47,
+      "question": "In firewall logs, a large number of denied requests from the same IP may indicate:",
+      "options": ["Normal network traffic", "A brute-force or scanning attack", "An encryption attempt", "Rule shadowing"],
+      "answer": "A brute-force or scanning attack"
+    },
+    {
+      "id": 48,
+      "question": "Which approach is considered a best practice for firewall rules?",
+      "options": ["Use broad allow rules", "Use least privilege by allowing only necessary traffic", "Allow all outbound connections", "Disable logging for performance"],
+      "answer": "Use least privilege by allowing only necessary traffic"
+    },
+    {
+      "id": 49,
+      "question": "Which protocol should generally be blocked to reduce risks of file sharing abuse?",
+      "options": ["SMB", "HTTPS", "DNS", "NTP"],
+      "answer": "SMB"
+    },
+    {
+      "id": 50,
+      "question": "What does 'fail-closed' mean in firewall behavior?",
+      "options": ["Firewall allows all traffic if it fails", "Firewall blocks all traffic if it fails", "Firewall shuts down immediately", "Firewall ignores inbound traffic"],
+      "answer": "Firewall blocks all traffic if it fails"
+    }
+  ]
+}
