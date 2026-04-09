@@ -189,17 +189,8 @@ Edit `src/theme/levelThemes.js` to customize pastel colors
 - [ ] Custom difficulty settings
 - [ ] Sound effects & background music
 - [ ] Mobile app (React Native)
-- [ ] Teacher dashboard for classrooms
+- [ ] Teacher dashboard for classroom
 
-## 📄 License
-
-MIT License – Free to use and modify
-
-## 👨‍💼 Support
-
-For issues, suggestions, or contributions, open an issue on GitHub or contact via the Contact page.
-
----
 
 **Happy Learning! 🎓🛡️**
 
